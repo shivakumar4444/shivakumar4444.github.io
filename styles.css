@@ -1,3 +1,76 @@
-head,body {
-    background-color:gray;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 5px 20px 20px 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+header p {
+  font-size: 1.2em;
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.profile-container div {
+  max-width: 600px;
+  text-align: left;
+}
+section {
+  padding: 20px;
+  margin: 20px;
+}
+section h2 {
+  font-size: 1.8em;
+  color: #333;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+.job-details {
+  margin-bottom: 10px;
+}
+.job-title {
+  font-weight: bold;
+}
+.company-name {
+  font-style: italic;
+  color: #555;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+.linkedIn {
+    color: aliceblue;
 }
