@@ -3,25 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siva Kumar G</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Siva Kumar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .profile-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile-container div {
+            max-width: 600px;
+            text-align: left;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        section h2 {
+            font-size: 1.8em;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .job-details {
+            margin-bottom: 10px;
+        }
+        .job-title {
+            font-weight: bold;
+        }
+        .company-name {
+            font-style: italic;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Siva Kumar G</h1>
-        <p>Programmer | Coder | Developer | Engineer</p>
-    </header>
 
-    <section id="projects">
-        <h2>Projects</h2>
+<header>
+    <h1>Siva Kumar G</h1>
+    <p>Coder | Engineer |Developer</p>
+</header>
+
+<div class="content">
+    <!-- Profile Picture and Introduction -->
+    <div class="profile-container">
+        <img src="your-photo.jpg" alt="Your Photo"> <!-- Replace 'your-photo.jpg' with the actual image file name -->
+        <div>
+            <p>Hello! I'm Your Name, a passionate software engineer with expertise in Angular, .NET, and web development. I specialize in creating efficient, user-friendly applications.</p>
+        </div>
+    </div>
+
+    <!-- Workplaces -->
+    <section>
+        <h2>Workplaces</h2>
         <ul>
-            <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-            <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
+            <li>
+                <div class="job-details">
+                    <span class="job-title">Software Engineer</span><br>
+                    <span class="company-name">Company 1</span><br>
+                    <span>January 2020 - Present</span>
+                </div>
+            </li>
+            <li>
+                <div class="job-details">
+                    <span class="job-title">Junior Developer</span><br>
+                    <span class="company-name">Company 2</span><br>
+                    <span>June 2017 - December 2019</span>
+                </div>
+            </li>
         </ul>
     </section>
 
-    <footer>
-        <p>Contact: sivakumarsnova@gmail.com</p>
-    </footer>
+    <!-- Interests -->
+    <section>
+        <h2>Interests</h2>
+        <ul>
+            <li>Interest 1</li>
+            <li>Interest 2</li>
+            <li>Interest 3</li>
+        </ul>
+    </section>
+
+    <!-- Experience -->
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li>Project 1: Short description of what you did and the technologies used.</li>
+            <li>Project 2: Short description of what you did and the technologies used.</li>
+            <li>Project 3: Short description of what you did and the technologies used.</li>
+        </ul>
+    </section>
+
+    <!-- Technologies -->
+    <section>
+        <h2>Technologies</h2>
+        <ul>
+            <li>Angular</li>
+            <li>.NET Core</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+        </ul>
+    </section>
+
+    <!-- College -->
+    <section>
+        <h2>College</h2>
+        <p>University Name - Degree (Year of Graduation)</p>
+    </section>
+</div>
+
+<footer>
+    <p>Contact: your-email@example.com | LinkedIn: your-linkedin-profile</p>
+</footer>
+
 </body>
 </html>
